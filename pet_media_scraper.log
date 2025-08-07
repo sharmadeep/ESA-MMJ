@@ -1,0 +1,295 @@
+2025-08-07 15:26:43,735 - INFO - Starting comprehensive US pet industry media scraper...
+2025-08-07 15:26:43,736 - INFO - Searching national pet industry publications...
+2025-08-07 15:26:43,736 - INFO - Searching for: pet magazine contact advertising
+2025-08-07 15:26:45,022 - INFO - Searching for: animal magazine editorial contact
+2025-08-07 15:26:46,463 - INFO - Searching for: veterinary publication advertising
+2025-08-07 15:26:48,114 - INFO - Searching for: pet industry magazine contact
+2025-08-07 15:26:50,179 - INFO - Searching for: dog magazine advertising rates
+2025-08-07 15:26:51,217 - INFO - Searching for: cat magazine contact information
+2025-08-07 15:26:52,661 - INFO - Searching state-by-state for local pet publications...
+2025-08-07 15:26:52,662 - INFO - Searching publications in Alabama
+2025-08-07 15:26:53,836 - INFO - Searching publications in Alaska
+2025-08-07 15:26:54,872 - INFO - Searching publications in Arizona
+2025-08-07 15:26:56,978 - INFO - Searching publications in Arkansas
+2025-08-07 15:26:59,161 - INFO - Searching publications in California
+2025-08-07 15:27:01,257 - INFO - Searching publications in Colorado
+2025-08-07 15:27:03,208 - INFO - Searching publications in Connecticut
+2025-08-07 15:27:04,965 - INFO - Searching publications in Delaware
+2025-08-07 15:27:06,926 - INFO - Searching publications in Florida
+2025-08-07 15:27:09,375 - INFO - Searching publications in Georgia
+2025-08-07 15:27:10,745 - INFO - Searching major cities for local pet publications...
+2025-08-07 15:27:10,745 - INFO - Searching publications in New York
+2025-08-07 15:27:12,533 - INFO - Searching publications in Los Angeles
+2025-08-07 15:27:13,863 - INFO - Searching publications in Chicago
+2025-08-07 15:27:16,165 - INFO - Searching publications in Houston
+2025-08-07 15:27:19,015 - INFO - Searching publications in Phoenix
+2025-08-07 15:27:21,883 - INFO - Searching publications in Philadelphia
+2025-08-07 15:27:24,271 - INFO - Searching publications in San Antonio
+2025-08-07 15:27:26,768 - INFO - Searching publications in San Diego
+2025-08-07 15:27:27,882 - INFO - Searching publications in Dallas
+2025-08-07 15:27:30,339 - INFO - Searching publications in San Jose
+2025-08-07 15:27:32,402 - INFO - Searching publications in Austin
+2025-08-07 15:27:33,976 - INFO - Searching publications in Jacksonville
+2025-08-07 15:27:35,249 - INFO - Searching publications in Fort Worth
+2025-08-07 15:27:38,194 - INFO - Searching publications in Columbus
+2025-08-07 15:27:40,419 - INFO - Searching publications in Charlotte
+2025-08-07 15:27:42,458 - INFO - Generating comprehensive state-specific URLs...
+2025-08-07 15:27:42,458 - INFO - Total URLs to scrape: 568
+2025-08-07 15:27:42,458 - INFO - Scraping website: https://www.fortworthmagazine.com
+2025-08-07 15:27:42,458 - INFO - Fetching: https://www.fortworthmagazine.com
+2025-08-07 15:27:42,567 - ERROR - Error fetching https://www.fortworthmagazine.com: 403 Client Error: Forbidden for url: https://domains.atom.com/lpd/name/www.fortworthmagazine.com
+2025-08-07 15:27:44,884 - INFO - Scraping website: https://www.nashvilleherald.com
+2025-08-07 15:27:44,885 - INFO - Fetching: https://www.nashvilleherald.com
+2025-08-07 15:27:44,961 - ERROR - Error fetching https://www.nashvilleherald.com: 403 Client Error: Forbidden for url: https://www.nashvilleherald.com/
+2025-08-07 15:27:47,816 - INFO - Scraping website: https://www.indianapetmagazine.com
+2025-08-07 15:27:47,817 - INFO - Fetching: https://www.indianapetmagazine.com
+2025-08-07 15:27:47,824 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67110>: Failed to resolve 'www.indianapetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:27:49,840 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67ed0>: Failed to resolve 'www.indianapetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:27:53,851 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67b10>: Failed to resolve 'www.indianapetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:27:53,860 - ERROR - Error fetching https://www.indianapetmagazine.com: HTTPSConnectionPool(host='www.indianapetmagazine.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a679d0>: Failed to resolve 'www.indianapetmagazine.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:27:55,899 - INFO - Scraping website: https://www.utahanimals.org
+2025-08-07 15:27:55,900 - INFO - Fetching: https://www.utahanimals.org
+2025-08-07 15:27:58,995 - INFO - Fetching: https://www.utahanimals.org/contact
+2025-08-07 15:28:06,455 - INFO - Fetching: https://utahanimals.org/about-utah-animal-adoption-center
+2025-08-07 15:28:09,145 - INFO - Fetching: https://utahanimals.org/about-utah-animal-adoption-center/
+2025-08-07 15:28:10,803 - INFO - Scraping website: https://www.scpets.com
+2025-08-07 15:28:10,803 - INFO - Fetching: https://www.scpets.com
+2025-08-07 15:28:11,064 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824a67750>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:13,291 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824a66350>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:17,526 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824a65e50>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:17,763 - ERROR - Error fetching https://www.scpets.com: HTTPSConnectionPool(host='www.scpets.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824a65f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-07 15:28:19,305 - INFO - Scraping website: https://www.sandiegoweekly.com
+2025-08-07 15:28:19,306 - INFO - Fetching: https://www.sandiegoweekly.com
+2025-08-07 15:28:19,316 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284190>: Failed to resolve 'www.sandiegoweekly.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:28:21,326 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284a50>: Failed to resolve 'www.sandiegoweekly.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:28:25,332 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284cd0>: Failed to resolve 'www.sandiegoweekly.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:28:25,339 - ERROR - Error fetching https://www.sandiegoweekly.com: HTTPSConnectionPool(host='www.sandiegoweekly.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284f50>: Failed to resolve 'www.sandiegoweekly.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:28:27,601 - INFO - Scraping website: https://www.newjerseyveterinary.com
+2025-08-07 15:28:27,601 - INFO - Fetching: https://www.newjerseyveterinary.com
+2025-08-07 15:28:27,676 - INFO - Site not pet-related: https://www.newjerseyveterinary.com
+2025-08-07 15:28:30,011 - INFO - Scraping website: https://www.missouriveterinary.com
+2025-08-07 15:28:30,011 - INFO - Fetching: https://www.missouriveterinary.com
+2025-08-07 15:28:30,051 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f68242856d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:32,090 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824285590>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:36,134 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824285810>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:28:37,676 - ERROR - Error fetching https://www.missouriveterinary.com: HTTPSConnectionPool(host='www.missouriveterinary.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6824285950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-07 15:28:40,312 - INFO - Scraping website: https://www.sanantoniogazette.com
+2025-08-07 15:28:40,312 - INFO - Fetching: https://www.sanantoniogazette.com
+2025-08-07 15:28:40,421 - ERROR - Error fetching https://www.sanantoniogazette.com: 403 Client Error: Forbidden for url: https://domains.atom.com/lpd/name/www.sanantoniogazette.com
+2025-08-07 15:28:41,530 - INFO - Scraping website: https://www.denverpost.com
+2025-08-07 15:28:41,530 - INFO - Fetching: https://www.denverpost.com
+2025-08-07 15:28:44,551 - INFO - Fetching: https://www.denverpost.com/opinion/editorials/
+2025-08-07 15:28:45,675 - INFO - Fetching: https://www.denverpostmedia.com/contact-us/
+2025-08-07 15:28:47,400 - INFO - Fetching: https://www.denverpost.com/business/economy/
+2025-08-07 15:28:47,429 - INFO - Found contact info for: The Denver Post – Colorado breaking news, sports, business, weather, entertainment.
+2025-08-07 15:28:47,429 - INFO - Success: Found contacts for The Denver Post – Colorado breaking news, sports, business, weather, entertainment.
+2025-08-07 15:28:49,543 - INFO - Scraping website: https://www.newjerseypets.com
+2025-08-07 15:28:49,543 - INFO - Fetching: https://www.newjerseypets.com
+2025-08-07 15:28:49,722 - ERROR - Error fetching https://www.newjerseypets.com: 410 Client Error: Gone for url: https://www.newjerseypets.com/
+2025-08-07 15:28:51,544 - INFO - Scraping website: https://www.hianimals.com
+2025-08-07 15:28:51,544 - INFO - Fetching: https://www.hianimals.com
+2025-08-07 15:28:55,401 - INFO - Fetching: https://hianimals.com/contact-us/
+2025-08-07 15:28:55,578 - INFO - Found contact info for: Hi Animals - A blog on tips, care and everything related to the world of animals.
+2025-08-07 15:28:55,578 - INFO - Success: Found contacts for Hi Animals - A blog on tips, care and everything related to the world of animals.
+2025-08-07 15:28:58,178 - INFO - Scraping website: https://www.sanjosetribune.com
+2025-08-07 15:28:58,178 - INFO - Fetching: https://www.sanjosetribune.com
+2025-08-07 15:28:58,220 - INFO - Site not pet-related: https://www.sanjosetribune.com
+2025-08-07 15:28:59,603 - INFO - Scraping website: https://www.kentuckypetmagazine.com
+2025-08-07 15:28:59,603 - INFO - Fetching: https://www.kentuckypetmagazine.com
+2025-08-07 15:28:59,610 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68242851d0>: Failed to resolve 'www.kentuckypetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:01,616 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284a50>: Failed to resolve 'www.kentuckypetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:05,626 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284f50>: Failed to resolve 'www.kentuckypetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:05,633 - ERROR - Error fetching https://www.kentuckypetmagazine.com: HTTPSConnectionPool(host='www.kentuckypetmagazine.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284e10>: Failed to resolve 'www.kentuckypetmagazine.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:29:07,392 - INFO - Scraping website: https://www.losangelesmagazine.com
+2025-08-07 15:29:07,392 - INFO - Fetching: https://www.losangelesmagazine.com
+2025-08-07 15:29:07,444 - INFO - Site not pet-related: https://www.losangelesmagazine.com
+2025-08-07 15:29:08,946 - INFO - Scraping website: https://www.newyorktimes.com
+2025-08-07 15:29:08,946 - INFO - Fetching: https://www.newyorktimes.com
+2025-08-07 15:29:08,975 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.newyorktimes.com'. (_ssl.c:1029)"))': /
+2025-08-07 15:29:11,000 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.newyorktimes.com'. (_ssl.c:1029)"))': /
+2025-08-07 15:29:15,021 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.newyorktimes.com'. (_ssl.c:1029)"))': /
+2025-08-07 15:29:15,047 - ERROR - Error fetching https://www.newyorktimes.com: HTTPSConnectionPool(host='www.newyorktimes.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.newyorktimes.com'. (_ssl.c:1029)")))
+2025-08-07 15:29:16,709 - INFO - Scraping website: https://www.mnanimals.com
+2025-08-07 15:29:16,709 - INFO - Fetching: https://www.mnanimals.com
+2025-08-07 15:29:16,717 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a66ad0>: Failed to resolve 'www.mnanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:18,724 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67610>: Failed to resolve 'www.mnanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:22,732 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68242860d0>: Failed to resolve 'www.mnanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:22,740 - ERROR - Error fetching https://www.mnanimals.com: HTTPSConnectionPool(host='www.mnanimals.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286350>: Failed to resolve 'www.mnanimals.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:29:25,189 - INFO - Scraping website: https://www.missouripets.com
+2025-08-07 15:29:25,190 - INFO - Fetching: https://www.missouripets.com
+2025-08-07 15:29:25,297 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:29:27,426 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:29:31,523 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:29:31,620 - ERROR - Error fetching https://www.missouripets.com: HTTPSConnectionPool(host='www.missouripets.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)')))
+2025-08-07 15:29:34,275 - INFO - Scraping website: https://www.southdakotaanimals.org
+2025-08-07 15:29:34,276 - INFO - Fetching: https://www.southdakotaanimals.org
+2025-08-07 15:29:34,282 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a66990>: Failed to resolve 'www.southdakotaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:36,289 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286d50>: Failed to resolve 'www.southdakotaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:40,698 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286fd0>: Failed to resolve 'www.southdakotaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:40,705 - ERROR - Error fetching https://www.southdakotaanimals.org: HTTPSConnectionPool(host='www.southdakotaanimals.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824287250>: Failed to resolve 'www.southdakotaanimals.org' ([Errno -2] Name or service not known)"))
+2025-08-07 15:29:41,964 - INFO - Scraping website: https://www.tnpets.com
+2025-08-07 15:29:41,964 - INFO - Fetching: https://www.tnpets.com
+2025-08-07 15:29:42,066 - ERROR - Error fetching https://www.tnpets.com: 404 Client Error: Not Found for url: https://www.tnpets.com/
+2025-08-07 15:29:43,743 - INFO - Scraping website: https://www.mnpets.com
+2025-08-07 15:29:43,743 - INFO - Fetching: https://www.mnpets.com
+2025-08-07 15:29:45,703 - INFO - Fetching: https://www.mnpets.com/contact-us
+2025-08-07 15:29:48,293 - INFO - Fetching: https://www.mnpets.com/about-us
+2025-08-07 15:29:49,674 - INFO - Fetching: https://www.mnpets.com/our-support-staff
+2025-08-07 15:29:49,885 - INFO - Found contact info for: Pet Euthanasia at Home - MN Pets
+2025-08-07 15:29:49,885 - INFO - Success: Found contacts for Pet Euthanasia at Home - MN Pets
+2025-08-07 15:29:51,244 - INFO - Scraping website: https://www.montanaveterinary.com
+2025-08-07 15:29:51,244 - INFO - Fetching: https://www.montanaveterinary.com
+2025-08-07 15:29:51,252 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a65f90>: Failed to resolve 'www.montanaveterinary.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:53,260 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286fd0>: Failed to resolve 'www.montanaveterinary.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:57,268 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824287390>: Failed to resolve 'www.montanaveterinary.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:29:57,275 - ERROR - Error fetching https://www.montanaveterinary.com: HTTPSConnectionPool(host='www.montanaveterinary.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286e90>: Failed to resolve 'www.montanaveterinary.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:29:59,414 - INFO - Scraping website: https://www.sanantoniopost.com
+2025-08-07 15:29:59,415 - INFO - Fetching: https://www.sanantoniopost.com
+2025-08-07 15:29:59,486 - ERROR - Error fetching https://www.sanantoniopost.com: 403 Client Error: Forbidden for url: https://www.sanantoniopost.com/
+2025-08-07 15:30:02,323 - INFO - Scraping website: https://www.alanimals.com
+2025-08-07 15:30:02,323 - INFO - Fetching: https://www.alanimals.com
+2025-08-07 15:30:02,340 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286710>: Failed to resolve 'www.alanimals.com' ([Errno -5] No address associated with hostname)")': /
+2025-08-07 15:30:04,358 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286990>: Failed to resolve 'www.alanimals.com' ([Errno -5] No address associated with hostname)")': /
+2025-08-07 15:30:08,376 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286850>: Failed to resolve 'www.alanimals.com' ([Errno -5] No address associated with hostname)")': /
+2025-08-07 15:30:08,638 - ERROR - Error fetching https://www.alanimals.com: HTTPSConnectionPool(host='www.alanimals.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824286490>: Failed to resolve 'www.alanimals.com' ([Errno -5] No address associated with hostname)"))
+2025-08-07 15:30:09,860 - INFO - Scraping website: https://www.ohioanimals.org
+2025-08-07 15:30:09,861 - INFO - Fetching: https://www.ohioanimals.org
+2025-08-07 15:30:12,421 - INFO - Site not pet-related: https://www.ohioanimals.org
+2025-08-07 15:30:13,457 - INFO - Scraping website: https://www.washingtonherald.com
+2025-08-07 15:30:13,458 - INFO - Fetching: https://www.washingtonherald.com
+2025-08-07 15:30:13,797 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284910>: Failed to resolve 'www.washingtonherald.com' ([Errno -3] Temporary failure in name resolution)")': /
+2025-08-07 15:30:16,137 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824285d10>: Failed to resolve 'www.washingtonherald.com' ([Errno -3] Temporary failure in name resolution)")': /
+2025-08-07 15:30:20,306 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284050>: Failed to resolve 'www.washingtonherald.com' ([Errno -3] Temporary failure in name resolution)")': /
+2025-08-07 15:30:20,644 - ERROR - Error fetching https://www.washingtonherald.com: HTTPSConnectionPool(host='www.washingtonherald.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284a50>: Failed to resolve 'www.washingtonherald.com' ([Errno -3] Temporary failure in name resolution)"))
+2025-08-07 15:30:23,306 - INFO - Scraping website: https://www.alaskaanimals.org
+2025-08-07 15:30:23,306 - INFO - Fetching: https://www.alaskaanimals.org
+2025-08-07 15:30:23,767 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284b90>: Failed to resolve 'www.alaskaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:25,774 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284cd0>: Failed to resolve 'www.alaskaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:29,840 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824285310>: Failed to resolve 'www.alaskaanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:29,899 - ERROR - Error fetching https://www.alaskaanimals.org: HTTPSConnectionPool(host='www.alaskaanimals.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824287b10>: Failed to resolve 'www.alaskaanimals.org' ([Errno -2] Name or service not known)"))
+2025-08-07 15:30:32,704 - INFO - Scraping website: https://www.kentuckyanimals.org
+2025-08-07 15:30:32,704 - INFO - Fetching: https://www.kentuckyanimals.org
+2025-08-07 15:30:34,747 - INFO - Fetching: https://www.kentuckyanimals.org/about.html
+2025-08-07 15:30:37,545 - INFO - Fetching: https://governor.ky.gov/about/governor-andy-beshear
+2025-08-07 15:30:40,558 - INFO - Fetching: https://www.kentuckyanimals.org/contact.html
+2025-08-07 15:30:40,613 - INFO - Found contact info for: Kentucky Week for the Animals
+2025-08-07 15:30:40,613 - INFO - Success: Found contacts for Kentucky Week for the Animals
+2025-08-07 15:30:42,449 - INFO - Scraping website: https://www.dallasherald.com
+2025-08-07 15:30:42,449 - INFO - Fetching: https://www.dallasherald.com
+2025-08-07 15:30:43,070 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /
+2025-08-07 15:30:45,386 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /
+2025-08-07 15:30:49,696 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /
+2025-08-07 15:30:50,011 - ERROR - Error fetching https://www.dallasherald.com: HTTPSConnectionPool(host='www.dallasherald.com', port=443): Max retries exceeded with url: / (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2025-08-07 15:30:52,175 - INFO - Scraping website: https://www.laanimals.com
+2025-08-07 15:30:52,175 - INFO - Fetching: https://www.laanimals.com
+2025-08-07 15:30:52,182 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67110>: Failed to resolve 'www.laanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:54,195 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284410>: Failed to resolve 'www.laanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:58,202 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824287ed0>: Failed to resolve 'www.laanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:30:58,209 - ERROR - Error fetching https://www.laanimals.com: HTTPSConnectionPool(host='www.laanimals.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824284cd0>: Failed to resolve 'www.laanimals.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:30:59,373 - INFO - Scraping website: https://www.montanapets.com
+2025-08-07 15:30:59,373 - INFO - Fetching: https://www.montanapets.com
+2025-08-07 15:31:15,481 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-08-07 15:31:31,098 - INFO - Found contact info for: 
+2025-08-07 15:31:31,112 - INFO - Success: Found contacts for 
+2025-08-07 15:31:33,727 - INFO - Scraping website: https://www.washingtonpetmagazine.com
+2025-08-07 15:31:33,727 - INFO - Fetching: https://www.washingtonpetmagazine.com
+2025-08-07 15:31:33,737 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad1f90>: Failed to resolve 'www.washingtonpetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:31:35,745 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad25d0>: Failed to resolve 'www.washingtonpetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:31:39,754 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2850>: Failed to resolve 'www.washingtonpetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:31:39,759 - ERROR - Error fetching https://www.washingtonpetmagazine.com: HTTPSConnectionPool(host='www.washingtonpetmagazine.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2ad0>: Failed to resolve 'www.washingtonpetmagazine.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:31:42,159 - INFO - Scraping website: https://www.fortworthpets.com
+2025-08-07 15:31:42,160 - INFO - Fetching: https://www.fortworthpets.com
+2025-08-07 15:31:42,275 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:31:44,374 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:31:48,454 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:31:48,544 - ERROR - Error fetching https://www.fortworthpets.com: HTTPSConnectionPool(host='www.fortworthpets.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)')))
+2025-08-07 15:31:50,867 - INFO - Scraping website: https://www.tennesseeveterinary.com
+2025-08-07 15:31:50,867 - INFO - Fetching: https://www.tennesseeveterinary.com
+2025-08-07 15:31:59,484 - INFO - Fetching: https://animalerspecialty.com/contact/
+2025-08-07 15:32:03,624 - INFO - Fetching: tel:+1.8656934440
+2025-08-07 15:32:03,625 - ERROR - Error fetching tel:+1.8656934440: No connection adapters were found for 'tel:+1.8656934440'
+2025-08-07 15:32:04,917 - INFO - Fetching: https://animalerspecialty.com/about/
+2025-08-07 15:32:06,966 - INFO - Found contact info for: Animal Emergency & Specialty Center of Knoxville | ER & Vet Specialists
+2025-08-07 15:32:06,966 - INFO - Success: Found contacts for Animal Emergency & Specialty Center of Knoxville | ER & Vet Specialists
+2025-08-07 15:32:08,804 - INFO - Scraping website: https://www.rhodeislandanimals.org
+2025-08-07 15:32:08,805 - INFO - Fetching: https://www.rhodeislandanimals.org
+2025-08-07 15:32:08,812 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824287d90>: Failed to resolve 'www.rhodeislandanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:10,825 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67610>: Failed to resolve 'www.rhodeislandanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:15,234 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2350>: Failed to resolve 'www.rhodeislandanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:15,643 - ERROR - Error fetching https://www.rhodeislandanimals.org: HTTPSConnectionPool(host='www.rhodeislandanimals.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2e90>: Failed to resolve 'www.rhodeislandanimals.org' ([Errno -2] Name or service not known)"))
+2025-08-07 15:32:17,400 - INFO - Scraping website: https://www.houstondaily.com
+2025-08-07 15:32:17,400 - INFO - Fetching: https://www.houstondaily.com
+2025-08-07 15:32:17,555 - ERROR - Error fetching https://www.houstondaily.com: 403 Client Error: Forbidden for url: https://www.houstondaily.com/
+2025-08-07 15:32:19,134 - INFO - Scraping website: https://www.txanimals.com
+2025-08-07 15:32:19,134 - INFO - Fetching: https://www.txanimals.com
+2025-08-07 15:32:19,143 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2ad0>: Failed to resolve 'www.txanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:21,150 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2850>: Failed to resolve 'www.txanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:25,158 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad25d0>: Failed to resolve 'www.txanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:25,172 - ERROR - Error fetching https://www.txanimals.com: HTTPSConnectionPool(host='www.txanimals.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2710>: Failed to resolve 'www.txanimals.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:32:26,406 - INFO - Scraping website: https://www.coanimals.com
+2025-08-07 15:32:26,407 - INFO - Fetching: https://www.coanimals.com
+2025-08-07 15:32:26,602 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:32:28,731 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:32:32,926 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:32:33,044 - ERROR - Error fetching https://www.coanimals.com: HTTPSConnectionPool(host='www.coanimals.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)')))
+2025-08-07 15:32:35,418 - INFO - Scraping website: https://www.maineanimals.org
+2025-08-07 15:32:35,418 - INFO - Fetching: https://www.maineanimals.org
+2025-08-07 15:32:35,429 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824285450>: Failed to resolve 'www.maineanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:37,439 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad3ed0>: Failed to resolve 'www.maineanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:41,498 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f4190>: Failed to resolve 'www.maineanimals.org' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:32:41,560 - ERROR - Error fetching https://www.maineanimals.org: HTTPSConnectionPool(host='www.maineanimals.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f4410>: Failed to resolve 'www.maineanimals.org' ([Errno -2] Name or service not known)"))
+2025-08-07 15:32:44,133 - INFO - Scraping website: https://www.philadelphiatimes.com
+2025-08-07 15:32:44,133 - INFO - Fetching: https://www.philadelphiatimes.com
+2025-08-07 15:32:44,288 - INFO - Found contact info for: HugeDomains.com
+2025-08-07 15:32:44,288 - INFO - Success: Found contacts for HugeDomains.com
+2025-08-07 15:32:46,464 - INFO - Scraping website: https://www.detroitdaily.com
+2025-08-07 15:32:46,465 - INFO - Fetching: https://www.detroitdaily.com
+2025-08-07 15:32:56,620 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.detroitdaily.com', port=443): Read timed out. (read timeout=10)")': /
+2025-08-07 15:33:08,769 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.detroitdaily.com', port=443): Read timed out. (read timeout=10)")': /
+2025-08-07 15:33:22,890 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.detroitdaily.com', port=443): Read timed out. (read timeout=10)")': /
+2025-08-07 15:33:32,959 - ERROR - Error fetching https://www.detroitdaily.com: HTTPSConnectionPool(host='www.detroitdaily.com', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError("HTTPSConnectionPool(host='www.detroitdaily.com', port=443): Read timed out. (read timeout=10)"))
+2025-08-07 15:33:34,674 - INFO - Scraping website: https://www.newyorknews.com
+2025-08-07 15:33:34,674 - INFO - Fetching: https://www.newyorknews.com
+2025-08-07 15:33:34,775 - INFO - Site not pet-related: https://www.newyorknews.com
+2025-08-07 15:33:36,761 - INFO - Scraping website: https://www.iowapets.com
+2025-08-07 15:33:36,761 - INFO - Fetching: https://www.iowapets.com
+2025-08-07 15:33:37,102 - ERROR - Error fetching https://www.iowapets.com: 437 Client Error: status code 437 for url: https://www.iowapets.com/
+2025-08-07 15:33:39,260 - INFO - Scraping website: https://www.columbusdaily.com
+2025-08-07 15:33:39,260 - INFO - Fetching: https://www.columbusdaily.com
+2025-08-07 15:33:39,357 - ERROR - Error fetching https://www.columbusdaily.com: 403 Client Error: Forbidden for url: https://domains.atom.com/lpd/name/www.columbusdaily.com
+2025-08-07 15:33:42,338 - INFO - Scraping website: https://www.jacksonvilleherald.com
+2025-08-07 15:33:42,338 - INFO - Fetching: https://www.jacksonvilleherald.com
+2025-08-07 15:33:42,363 - INFO - Site not pet-related: https://www.jacksonvilleherald.com
+2025-08-07 15:33:43,786 - INFO - Scraping website: https://www.delawarepetmagazine.com
+2025-08-07 15:33:43,786 - INFO - Fetching: https://www.delawarepetmagazine.com
+2025-08-07 15:33:43,794 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad3b10>: Failed to resolve 'www.delawarepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:45,808 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad25d0>: Failed to resolve 'www.delawarepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:49,816 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2490>: Failed to resolve 'www.delawarepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:49,824 - ERROR - Error fetching https://www.delawarepetmagazine.com: HTTPSConnectionPool(host='www.delawarepetmagazine.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad1f90>: Failed to resolve 'www.delawarepetmagazine.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:33:52,558 - INFO - Scraping website: https://www.caanimals.com
+2025-08-07 15:33:52,558 - INFO - Fetching: https://www.caanimals.com
+2025-08-07 15:33:52,566 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2350>: Failed to resolve 'www.caanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:54,574 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2fd0>: Failed to resolve 'www.caanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:58,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6823ad2210>: Failed to resolve 'www.caanimals.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:33:58,591 - ERROR - Error fetching https://www.caanimals.com: HTTPSConnectionPool(host='www.caanimals.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6824a67610>: Failed to resolve 'www.caanimals.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:34:00,983 - INFO - Scraping website: https://www.indianapets.com
+2025-08-07 15:34:00,983 - INFO - Fetching: https://www.indianapets.com
+2025-08-07 15:34:01,084 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:34:03,180 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:34:07,278 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))': /
+2025-08-07 15:34:07,360 - ERROR - Error fetching https://www.indianapets.com: HTTPSConnectionPool(host='www.indianapets.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)')))
+2025-08-07 15:34:08,894 - INFO - Scraping website: https://www.newhampshirepetmagazine.com
+2025-08-07 15:34:08,894 - INFO - Fetching: https://www.newhampshirepetmagazine.com
+2025-08-07 15:34:08,902 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f4910>: Failed to resolve 'www.newhampshirepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:34:10,906 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f4b90>: Failed to resolve 'www.newhampshirepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:34:14,915 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f4e10>: Failed to resolve 'www.newhampshirepetmagazine.com' ([Errno -2] Name or service not known)")': /
+2025-08-07 15:34:14,922 - ERROR - Error fetching https://www.newhampshirepetmagazine.com: HTTPSConnectionPool(host='www.newhampshirepetmagazine.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f68236f5090>: Failed to resolve 'www.newhampshirepetmagazine.com' ([Errno -2] Name or service not known)"))
+2025-08-07 15:34:16,894 - INFO - Scraping website: https://www.copets.com
+2025-08-07 15:34:16,894 - INFO - Fetching: https://www.copets.com
+2025-08-07 15:34:16,945 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f68236f5450>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:34:19,026 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f68236f5590>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:34:23,094 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f68236f56d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /
+2025-08-07 15:34:23,139 - ERROR - Error fetching https://www.copets.com: HTTPSConnectionPool(host='www.copets.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f68236f5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-07 15:34:24,488 - INFO - Results saved to pet_industry_media_contacts.csv
+2025-08-07 15:34:24,488 - INFO - Results saved to pet_industry_media_contacts.json
+2025-08-07 15:34:24,488 - INFO - Scraping completed. Scraped 50 sites, found 7 publications with contact info.

@@ -1,0 +1,27 @@
+{
+  "email_service": "smtp",
+  "smtp_settings": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "use_tls": true,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password"
+  },
+  "sendgrid_api_key": "your-sendgrid-api-key-here",
+  "mailgun_settings": {
+    "api_key": "your-mailgun-api-key",
+    "domain": "your-mailgun-domain.com"
+  },
+  "sender_email": "your-email@gmail.com",
+  "sender_name": "Pet Industry Marketing Team",
+  "daily_email_limit": 50,
+  "rate_limit_seconds": 30,
+  "retry_attempts": 3,
+  "unsubscribe_link": "https://yourwebsite.com/unsubscribe",
+  "company_info": {
+    "name": "Your Pet Company",
+    "website": "https://yourpetcompany.com",
+    "phone": "(555) 123-4567",
+    "address": "123 Pet Street, Pet City, PC 12345"
+  }
+}
